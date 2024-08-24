@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100%;
+}
+nav {
+  position: sticky;
+  background: #fcaf02;
+  width: 100%;
+  height: 20%;
+}
+#nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+#nav ul {
+  display: flex;
+}
+#nav ul li {
+  list-style: none;
+  margin-left: 20px;
+}
+#nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-family: Montserrat;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 34.13px;
+  text-align: left;
+}
+#nav h1 {
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39.01px;
+  text-align: left;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  padding: 50px;
+  background-color: black;
+}
+
+.text-section {
+  max-width: 450px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.btn-login {
+  background-color: #f1c40f;
+  color: #000;
+  padding: 12px 24px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: Montserrat;
+  border: none;
+  cursor: pointer;
+  width: 203px;
+  border-radius: 500px;
+  font-weight: bold;
+}
+
+.image-section img {
+  max-width: 350px;
+  border-radius: 10px;
+}
+
+
+/* form code */
+
+.contact-form {
+    background-color: black;
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
+    color: yellow;
+}
+
+.contact-form h2 {
+    text-align: left;
+    color: #ffb700;
+    padding: 25px;
+    font-size: 50px;
+}
+
+.contact-form input {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 2px solid #ffb700;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+
+.contact-form input[name="mobile"],
+.contact-form input[name="city"] {
+    width: 49%;
+    display: inline-block;
+}
+
+.contact-form button {
+    padding: 10px;
+    background-color: #ffb700;
+    border: none;
+    border-radius: 20px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.contact-form button:hover {
+    background-color: #e0a200;
+}
+#btn{
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+#tablesection {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: #f0a500;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.startup-table {
+    width: 80%;
+    border-collapse: collapse;
+}
+
+.startup-table th,
+.startup-table td {
+    border: 1px solid #f0a500;
+    padding: 10px 15px;
+    text-align: left;
+}
+
+.startup-table thead th {
+    color: #f0a500;
+}
+.startup-table tfoot .footer-row td {
+    background-color: #f0a500;
+    color: #1a1a1a;
+    font-weight: bold;
+}
